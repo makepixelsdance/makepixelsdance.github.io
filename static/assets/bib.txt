@@ -1,0 +1,5 @@
+@article{MakePixelsDance,
+  title={Make Pixels Dance: High-Dynamic Video Generation},
+  author={Zeng, Yan and Wei, Guoqiang and Zheng, Jiani and Zou, Jiaxin and Wei, Yang and Zhang, Yuchen and Li, Hang},
+  year={2023}
+}
