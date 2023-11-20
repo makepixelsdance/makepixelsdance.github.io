@@ -203,7 +203,7 @@ height: auto;
     font-size: 68px!important;
 }
 .example-font {
-    font-size: 1.25em!important;
+    font-size: 1em!important;
 }
 .ist-font {
     font-size: 2em;
@@ -237,5 +237,8 @@ height: auto;
     }
     .note-font {
         font-size: 0.8em;
+    }
+    .instruct-font {
+        font-size: 0.7em;
     }
 }

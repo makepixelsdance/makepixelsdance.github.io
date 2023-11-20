@@ -7,15 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Make Pixels Dance: High-Dynamic Video Generation</title>
     <link rel='icon' type='image/png' href='static/assets/logo_plus.png'>
-    <link rel="stylesheet" href="./static/css/own.css">
-    <link rel="stylesheet" href="./static/css/custom.css">
+    <link rel="stylesheet" href="./static/css/own.min.css">
+    <link rel="stylesheet" href="./static/css/custom.min.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Shantell+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css" rel="stylesheet"/>
     <script defer src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="./static/css/index.css">
+    <link rel="stylesheet" href="./static/css/index.min.css">
     <script defer src="./static/js/index.min.js"></script>
 </head>
 
@@ -119,7 +119,7 @@
         <div class="column is-half">
             <div class="hero-body-long-video" style="display: flex; flex-direction: column; justify-content: space-around;">
                 <div class="column-video" style="border-radius:10px;justify-content: center;align-items: center; font-size: 100px;">
-                    <iframe src="https://www.youtube.com/embed/QERmPmCg9aQ"" src="" class="frame" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/QERmPmCg9aQ" src="" class="frame" frameborder="0" allowfullscreen></iframe>
                 </div>
                 <div class="note-font" style="margin-top: 8pt; font-style: italic;">
                     *Best viewed in the highest resolution and with the sound on
@@ -140,7 +140,7 @@
                     Basic Mode
                 </div>
                 <div class="note-font" style="margin-top: -10pt; font-style: italic;">
-                    *with text and first frame instructions, generating more motion-rich videos even with out-of-domain inputs 
+                    *with text instruction and image instruction, generating more motion-rich videos even with out-of-domain inputs
                 </div>
             </div>
         </div>
@@ -157,11 +157,11 @@
 
         <div class="v-column-center" style="text-align: center; display: flex;">
 
-            <div class="" style="width: 30%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+            <div class="" style="width: 27%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
                 <img width="100%" src="videos/25_0/a-.png" alt="Image" style="border-radius: 6pt;">
-                <p class="handtext">First Frame</p>
+                <p class="handtext instruct-font">Image Instruction</p>
             </div>
-            <div class="" style="width: 40%; display: flex; justify-content: space-around; align-items: center; text-align: center;">
+            <div class="" style="width: 45%; display: flex; justify-content: space-around; align-items: center; text-align: center;">
                 <div class="box handtext ist-font" style="text-align: center; background-color: #ffffff00; box-shadow: 0 0 0;">
                     <i class="fa-solid fa-plus"></i>
                 </div>
@@ -172,7 +172,7 @@
                     <i class="fa-solid fa-video"></i>
                 </div>
             </div>
-            <div class="" style="width: 30%; display: flex; justify-content: space-around; align-items: center; text-align: center;">
+            <div class="" style="width: 28%; display: flex; justify-content: space-around; align-items: center; text-align: center;">
                 <video class="lazy" width="100%" autoplay loop muted style="border-radius: 6pt;">
                     <source data-src="videos/25_0/a.mp4" type="video/mp4">
                 </video>
@@ -205,7 +205,7 @@
                     Magic Mode
                 </div>
                 <div class="note-font"style="margin-top: -10pt; font-style: italic;">
-                    *with text, first frame and last frame instructions, generating intricate out-of-domain scenes and/or actions
+                    *with text instruction, image instruction 1 and image instruction 2, generating intricate out-of-domain scenes and/or actions
                 </div>
             </div>
         </div>
@@ -224,26 +224,22 @@
 
         <div class="v-column-center" style="text-align: center; display: flex;">
 
-            <div class="" style="width: 30%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
-                <img src="videos/57_30/a.png" alt="Image" style="border-radius: 6pt;">
-                <p class="handtext">First Frame</p>
+            <div class="" style="width: 33%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+                <img src="videos/57_30/c.png" alt="Image" style="border-radius: 6pt;">
+                <p class="handtext instruct-font">Image Instructions</p>
             </div>
-            <div class="" style="width: 30%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
-                <img src="videos/57_30/b.png" alt="Image" style="border-radius: 6pt;">
-                <p class="handtext">First Frame</p>
-            </div>
-            <div class="" style="width: 40%; display: flex; justify-content: space-around; align-items: center; text-align: center;">
+            <div class="" style="width: 45%; display: flex; justify-content: space-around; align-items: center; text-align: center;">
                 <div class="box handtext ist-font" style="text-align: center; background-color: #ffffff00; box-shadow: 0 0 0;">
                     <i class="fa-solid fa-plus"></i>
                 </div>
                 <div class="box handtext example-font" style="font-size: 1.25em; text-align: center; box-shadow: 0 0.5em 1em 0.125em rgba(10,10,10,.1), 0 0 0 2px rgba(10,10,10,.02);">
-                    The ball is in fire and turns into a dragon in fire slowly
+                    The ball is in fire and turns into a dragon in fire
                 </div>
                 <div class="box handtext ist-font" style="text-align: center; background-color: #ffffff00; box-shadow: 0 0 0;">
                     <i class="fa-solid fa-video"></i>
                 </div>
             </div>
-            <div class="" style="width: 30%; display: flex; justify-content: space-around; align-items: center; text-align: center;">
+            <div class="" style="width: 22%; display: flex; justify-content: space-around; align-items: center; text-align: center;">
                 <video class="lazy" width="100%" autoplay loop muted style="border-radius: 6pt;">
                     <source data-src="videos/57_30/b.mp4" type="video/mp4">
                 </video>
@@ -260,7 +256,7 @@
 <section class="section">
     <div class="container is-clipped">
         <div id="slider2" class="custom-slider">
-            <div class='card-0'><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/56_30/f.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>Grass and flowers growing from the hair slowly, bees flying slowly</div></div></div><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/46_35_case2/ab.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>The skull in a hood slowly standing up from the water, very smooth transition, dark</div></div></div></div> <div class='card-0'><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/14_35/ab-0.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>A man rides on a huge fish, flying from the water into the sky, sunset</div></div></div><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/47_35/a-5.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>Half of the face turns into cyborg face, robot eye, titanium skull</div></div></div></div> <div class='card-0'><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/k1/k1.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>Forest in fire, a ghost appears</div></div></div><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/8_40/ab-3.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>A green ghost is slowly walking from the distance, on a halloween street, bats are flying in the sky</div></div></div></div> <div class='card-0'><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/106/ab-bc-cd.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>The head of woman become a tiger head, woman with a tiger head look at viewer, tiger fade out, changing into a cyperpunk tiger, blue light, slowly</div></div></div><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/k3/k3.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>Black humanoid raise hand slowly, blue lightening</div></div></div></div> <div class='card-0'><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/55_30/ab-3.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>From winter to spring, rotate, zoom in, smooth transition, wide range view</div></div></div><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/126/ab-2.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>Zoom in, comic, slowly</div></div></div></div> <div class='card-0'><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/k2/k2.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>Tiger becomes cyberpunk-style tiger</div></div></div><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/k4/k4.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>Girl in green jacket walks closer</div></div></div></div> <div class='card-0'><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/42_25/ab-3.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>The kawaii squirrel is surfing to the beach, slow and smooth transition,tropical, rainbow</div></div></div><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/k5/k5.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>Unicorn running, becoming oil painting style</div></div></div></div> <div class='card-0'><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/k6/k6.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>Whale jumps from the sea and falls down</div></div></div></div>
+            <div class='card-0'><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/56_30/f.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>Grass and flowers growing from the hair slowly, bees flying slowly</div></div></div><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/46_35_case2/ab.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>The skull in a hood slowly standing up from the water, very smooth transition, dark</div></div></div></div> <div class='card-0'><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/14_35/ab-0.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>A man rides on a huge fish, flying from the water into the sky, sunset</div></div></div><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/47_35/a-5.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>Half of the face turns into cyborg face, robot eye, titanium skull</div></div></div></div> <div class='card-0'><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/k1/k1.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>Forest in fire, a ghost appears</div></div></div><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/8_40/ab-3.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>A green ghost is slowly walking from the distance, on a halloween street, bats are flying in the sky</div></div></div></div> <div class='card-0'><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/106/ab-bc-cd.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>The head of woman become a tiger head, woman with a tiger head look at viewer, tiger fade out, changing into a cyperpunk tiger, blue light, slowly</div></div></div><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/k3/k3.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>Black humanoid raise hand slowly, blue lightening</div></div></div></div> <div class='card-0'><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/55_30/ab-3.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>From winter to spring, rotate, zoom in, smooth transition, wide range view</div></div></div><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/126/ab-2.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>Zoom in, comic, slowly</div></div></div></div> <div class='card-0'><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/k2/k2.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>Tiger becomes cyberpunk-style tiger</div></div></div><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/k4/k4.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>Girl in green jacket walks closer</div></div></div></div> <div class='card-0'><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/42_25/ab-3.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>The kawaii squirrel is surfing to the beach, slow and smooth transition,tropical, rainbow</div></div></div><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/k5/k5.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>Unicorn running, becoming oil painting style</div></div></div></div> <div class='card-0'><div class='card card-1'><div class='card-image'><video class='lazy' autoplay loop muted width='100%'><source data-src='videos/k6/k6.mp4' type='video/mp4'></video></div><div class='card-content'><div class='prompt'>A huge whale jumps out of water</div></div></div></div>
         </div>
     </div>
 </section>
