@@ -211,6 +211,9 @@ height: auto;
 .note-font {
     font-size: 1em;
 }
+.long-font {
+    font-size: 30pt;
+}
 @media screen and (max-width: 768px) {
     .v-column-left {
         width: 1%;
@@ -240,5 +243,8 @@ height: auto;
     }
     .instruct-font {
         font-size: 0.7em;
+    }
+    .long-font {
+        font-size: 20pt;
     }
 }
