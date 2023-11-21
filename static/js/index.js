@@ -10,8 +10,8 @@ var options = {
 var carousels = bulmaCarousel.attach('.custom-slider', options);
 
 var options2 = {
-	slidesToScroll: 1,
-	slidesToShow: 1,
+	slidesToScroll: 2.5,
+	slidesToShow: 3,
 	loop: true,
 	infinite: true,
 	autoplay: false,
