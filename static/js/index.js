@@ -1,7 +1,7 @@
 
 var options = {
 	slidesToScroll: 2.5,
-	slidesToShow: 3.5,
+	slidesToShow: 4.5,
 	loop: true,
 	infinite: true,
 	autoplay: false,
@@ -11,7 +11,7 @@ var carousels = bulmaCarousel.attach('.custom-slider', options);
 
 var options2 = {
 	slidesToScroll: 2.5,
-	slidesToShow: 3,
+	slidesToShow: 4.5,
 	loop: true,
 	infinite: true,
 	autoplay: false,
